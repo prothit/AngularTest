@@ -1,0 +1,21 @@
+<div style="background-color: #212614;color:#fff;">
+THIS IS {{fcName|uppercase}} component
+<br>
+<label>PASS AUTHOR'S NAME HERE: </label>
+<input type="text" [(ngModel)]="fcModel">
+<label>UPDATE FROM PARENT VARIABLE FROM CHILD FIRST COMPONENT:  </label>
+<input type="text" [(ngModel)]="fromParent">
+<br>
+{{fcModel|uppercase}} 
+
+<div style="border:2px solid red;">
+
+  {{  fromParent | uppercase }}
+
+
+</div>
+<div style="background-color:#f2f2f2;color:black;text-align:center;">
+<button (click)="sendToParent()">SEND TO PARENT</button>
+<button (click)="sendToParent2()">SEND TO PARENT2</button>
+</div>
+</div>
