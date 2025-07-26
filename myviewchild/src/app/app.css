@@ -1,0 +1,11 @@
+#d1{
+    background-color:#212614;
+    color:#fff;
+    font-size:large;
+    min-width:fit-content;
+    overflow:auto;
+}
+
+input{
+    width:100%;
+}
