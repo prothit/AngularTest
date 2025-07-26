@@ -1,0 +1,17 @@
+section{
+    width:360px;
+    min-height:100px;
+    margin:auto;
+    border:2px solid red;
+    overflow:auto;
+    background-color:#f2f2f2;
+    color:black;
+}
+h1{
+   text-align:center;
+   
+  
+}
+button{
+    background-color: blue;
+}
