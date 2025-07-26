@@ -1,0 +1,9 @@
+
+<div id="div1">
+
+<label>Enter Message:</label>
+<textarea id="inp1" [(ngModel)]="messageA" [ngClass]="{error:isError===true}"></textarea>
+<button id="btn1" (click)="sendMessage()">SEND</button>
+<div id="res1" *ngFor="let messageB of messagesB">{{messageB}}</div>
+</div>
+
