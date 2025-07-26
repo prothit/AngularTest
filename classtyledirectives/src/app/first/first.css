@@ -1,0 +1,27 @@
+.normal{
+background-color: #f2f2f2;
+}
+
+.admin{
+background-color: green;
+}
+
+div{
+min-width:360px;
+width:auto;
+text-align: center;
+background-color: #f2f2f2;
+color:black;
+overflow:auto;
+
+}
+
+button{
+width:100%;
+text-align:center;
+background-color:blue;
+
+}
+li{
+    border:2px solid red;
+}

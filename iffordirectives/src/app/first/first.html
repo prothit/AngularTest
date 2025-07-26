@@ -1,0 +1,23 @@
+<div style="width:100%;margin:auto;background-color:blue;color:#fff;font-weight:bold;">
+<p innerText="{{msg|uppercase}}"></p>
+<hr>
+<span>Message From Parent: {{parentinput|uppercase}}</span>
+<hr>
+<label >Message from Parent:</label>
+<input type="text" [(ngModel)]="parentinput">
+<button [innerText]="button" (click)="sendToParent()"></button>
+
+<div *ngIf="check else error" style="background-color:green;overflow:auto;width:100%;color:black;">
+    dsdsdsdsds
+<ul style="list-style-type: disc;">
+<li *ngFor="let student of students">
+{{student}}
+</li>
+
+</ul>
+
+</div>
+<ng-template #error >
+ <div style="background-color:red;overflow:auto;width:100%; color:black;"><p>ENABLED FALSE NGIF THAT IS NGTEMPLATE.LIST NOT DISPLAYED.</p></div>
+</ng-template>
+</div>
