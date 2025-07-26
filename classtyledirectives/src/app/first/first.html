@@ -1,0 +1,19 @@
+<p>first works!</p>
+
+<div>
+<ul style="list-style-type: none;" [ngClass]="'normal'">
+<li *ngFor="let employee of employees" [ngClass]="{admin: employee==='Prothit'}" >
+{{employee}}
+
+</li>
+
+</ul>
+
+
+</div>
+<hr>
+<div>
+    <label >Add Employee:  </label>
+<input type="text" style="width:100%;border-radius:2px;" [(ngModel)]="emp">
+<button (click)="addEmployee()">Add Employee</button>
+</div>
