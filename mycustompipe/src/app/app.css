@@ -1,0 +1,39 @@
+
+ section{
+    display:flex;
+     align-items: center;
+     justify-content:center;
+     height:100vh;
+ }
+div{
+   background-color: rgba(0,0,0,0.5);
+   color:white;
+   text-align:center;
+   min-width:360px;
+   width:40%;
+   display:flex;
+   justify-content: center; 
+   flex-wrap:wrap;
+   align-items: center;
+   height:50%;
+   font-weight: bolder;
+   overflow:auto;
+}
+input{
+    width:100%;
+    text-align: center;
+    border-radius:3px;
+}
+label{
+    color:#fff;
+    font-weight: bolder;
+    width:100vw;
+}
+@media (max-width:360px){
+    
+    div{
+        background-color: red;
+        margin-top:50%;
+        overflow:auto;
+    }
+}
